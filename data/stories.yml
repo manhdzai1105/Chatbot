@@ -1,0 +1,14 @@
+version: "3.1"
+
+stories:
+
+- story: chao hoi
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: tam biet
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+  
